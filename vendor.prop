@@ -559,3 +559,4 @@ vendor.media.heif.highThreshold=20
 vendor.mtk.camera.app.fd.video=1
 vendor.mtk.vdec.waitkeyframeforplay=9
 
+# Refactored
