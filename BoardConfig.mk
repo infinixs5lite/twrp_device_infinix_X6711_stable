@@ -213,3 +213,7 @@ OF_DISABLE_OTA_MENU := 1
 OF_NO_TREBLE_COMPATIBILITY_CHECK := 1
 OF_SUPPORT_VBMETA_AVB2_PATCHING := 1
 
+# PBRP specific build flags and enable torch 
+PB_TORCH_PATH := "/sys/class/torch/torch/torch_level"
+PB_TORCH_MAX_BRIGHTNESS := 2
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
