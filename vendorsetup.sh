@@ -92,7 +92,7 @@ else
 	for patch_file in "${patch_files[@]}"; do
 		patch_name="$(basename "${patch_file}")"
 		if [ ! -f "${patch_file}" ]; then
-			echo "[P661N] Missing patch: ${patch_file}"
+			echo "[X6711] Missing patch: ${patch_file}"
 		elif (
 			cd "${workspace_root}" &&
 			patch -p1 -N --dry-run --silent < "${patch_file}" >/dev/null 2>&1
