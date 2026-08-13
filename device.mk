@@ -56,10 +56,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Vibrator modules
 TARGET_RECOVERY_DEVICE_MODULES += \
-    android.hardware.vibrator-V2-ndk.so
+    android.hardware.vibrator-V2-cpp.so
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.vibrator-V2-ndk.so
+    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.vibrator-V2-cpp.so
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 31
