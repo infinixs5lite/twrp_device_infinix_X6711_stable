@@ -1,5 +1,5 @@
 # Inherit from X6711 device
-$(call inherit-product, device/itel/X6711/device.mk)
+$(call inherit-product, device/infinix/X6711/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
