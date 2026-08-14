@@ -26,7 +26,7 @@ PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X6711
 PRODUCT_MANUFACTURER := infinix
 
-PRODUCT_GMS_CLIENTID_BASE := android-infinix
+PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 # Hide Reflash TWRP & FUSE passthrough
 PRODUCT_PROPERTY_OVERRIDES += \
